@@ -84,6 +84,11 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
+    <Route path="raspberrypi">
+      <Route path="intro" component={RaspberryPiIntroPage} />
+      <Route path="remoteappliance" component={RaspberryPiRemoteAppliancePage} />
+      <Route path="sensorcontrol" component={RaspberryPiSensorControlPage} />
+    </Route>
       <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />

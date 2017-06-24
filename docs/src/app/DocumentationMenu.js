@@ -69,6 +69,11 @@ class DocumentationMenu extends Component {
               containerElement={<Link to="/microbit/microbitintro" />}
               onClick={this.handleRequestClose}
             />
+            <MenuItem
+              primaryText="Raspberry Pi"
+              containerElement={<Link to="/raspberrypi/intro" />}
+              onClick={this.handleRequestClose}
+            />
           </Menu>
         </Popover>
       </span>

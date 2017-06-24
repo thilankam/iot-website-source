@@ -19,6 +19,11 @@ const deviceList = [
     img: 'assets/howtos/microbit_back.png',
     link: '#/microbit/microbitintro',
     description: "The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by many different editors, including a blocks editor provided by Microsoft. Learn more about the micro:bit at the Micro:bit Educational Foundation's website.",
+  },{
+    title: 'Raspberry Pi',
+    img: 'assets/howtos/raspberrypi.png',
+    link: '#/raspberrypi/intro',
+    description: "The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to promote the teaching of basic computer science in schools and in developing countries.",
   },
 ];
 

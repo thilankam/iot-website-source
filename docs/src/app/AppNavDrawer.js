@@ -228,6 +228,24 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
+          <ListItem
+            primaryText="Raspberry Pi"
+            primaryTogglesNestedList={true}
+            value="/raspberrypi/intro"
+            href="#/raspberrypi/intro"
+            nestedItems={[
+              <ListItem
+                primaryText="Home Appliance Demo"
+                value="/raspberrypi/remoteappliance"
+                href="#/raspberrypi/remoteappliance"
+              />,
+              <ListItem
+                primaryText="Sensor Control Demo"
+                value="/raspberrypi/sensorcontrol"
+                href="#/raspberrypi/sensorcontrol"
+              />,
+            ]}
+          />
           <Divider />
           <ListItem
             primaryText="Help"
