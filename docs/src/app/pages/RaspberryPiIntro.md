@@ -5,7 +5,7 @@ The “RaspberryPi” components consist of the “RaspberryPiServer” and the 
 ## Setting up your RaspberryPi
 ### Essential Software
 
-<a rel="nofollow" href="https://github.com/thilankam/AppInventorRaspberryPiCompanion" target="_blank">Download / clone the code available at this repo in to your RaspberryPi:</a>
+Download / clone the code available at this repo in to your RaspberryPi:<a rel="nofollow" href="https://github.com/thilankam/AppInventorRaspberryPiCompanion" target="_blank">https://github.com/thilankam/AppInventorRaspberryPiCompanion</a>.
 
 ### MQTT Broker
 [Optional] If you wish to set up your RaspberryPi as an MQTT broker, we recommend that you install Mosquitto. Follow the instructions given on the Mosquitto website to run a broker locally. Please note that if you wish to control the devices and sensors connected to your RaspberryPi via the Internet with this approach, your RaspberryPi must have a public IP address.
@@ -67,7 +67,7 @@ Extensive details about the available properties, methods, and events can be fou
 ## Component Configuration 
 Before using the RaspberryPiServer component, we have to initialize the component with certain parameters to make sure the Raspberry Pi and the corresponding App Inventor component will work together. For example, if the ‘model’ specified in the config.properties is “Pi2B”, the same value must be specified in the initialize block of the RaspberryPiServer component. Similarly the ‘brokerAddress’ and ‘brokerPort’ should match. Most importantly, the ‘identifier’ has to be identical with what is available in identifier.txt file created in the RaspberryPi and output when the companion first starts. A runtime will error result if any of these values do not match. 
 
-![intializeServer RaspberryPiServer1](blocks/RaspberryPi.ComponentConfiguration.png)
+![intializeServer RaspberryPiServer1](images/RaspberryPi.ComponentConfiguration.png)
 
  ## RaspberryPiPinClient
  
@@ -80,7 +80,7 @@ Extensive details about the available properties, methods, and events can be fou
 
 ## Component Configuration 
 
-![intializeClient RaspberryPiServer1](blocks/RaspberryPi.ClientComponentConfiguration.png)
+![intializeClient RaspberryPiServer1](images/RaspberryPi.ClientComponentConfiguration.png)
 
 A RaspberryPiPinClient used in AppInventor must be registered. The method block that can be used to register the pin client is shown in the above image. The ‘pin’ parameter specifies the physical pin number used in the configuration. The ‘isOutput’ parameter specifies whether the device connected to the pin is an output or an input. The ‘raspberryPiServer’ parameter specifies the RaspberryPiServer that this pin is attached to. This is important in validating the pin and also obtaining the MQTT broker IP address and the port used to send and receive messages.
 

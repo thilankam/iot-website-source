@@ -54,7 +54,7 @@ Conceptual and Physical Circuit Diagrams
 
 ### App Inventor Design
 
-![intializeServer_registerPin RaspberryPiServer1](blocks/RaspberryPi.RemoteAppliance.png)
+![intializeServer_registerPin RaspberryPiServer1](images/RaspberryPi.RemoteAppliance.png)
 
 ### Resource Download
 

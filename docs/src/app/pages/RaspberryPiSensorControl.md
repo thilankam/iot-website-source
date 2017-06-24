@@ -29,7 +29,7 @@ Here are the prerequisites for following this tutorial.
  
 ### App Inventor Design
 
-![sensorLight RaspberryPiServer1](blocks/RaspberryPi.SensorLight.png)
+![sensorLight RaspberryPiServer1](images/RaspberryPi.SensorLight.png)
 
 ### Resource Download
 
