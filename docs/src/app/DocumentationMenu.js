@@ -70,6 +70,11 @@ class DocumentationMenu extends Component {
               onClick={this.handleRequestClose}
             />
             <MenuItem
+              primaryText="Android Things"
+              containerElement={<Link to="/androidthings/intro" />}
+              onClick={this.handleRequestClose}
+            />
+            <MenuItem
               primaryText="Raspberry Pi"
               containerElement={<Link to="/raspberrypi/intro" />}
               onClick={this.handleRequestClose}

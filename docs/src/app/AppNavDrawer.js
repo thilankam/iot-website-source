@@ -229,6 +229,34 @@ class AppNavDrawer extends Component {
             ]}
           />
           <ListItem
+            primaryText="Android Things"
+            primaryTogglesNestedList={true}
+            value="/androidthings/intro"
+            href="#/androidthings/intro"
+            nestedItems={[
+              <ListItem
+                primaryText="Android Things GPIO Output Demo"
+                value="/androidthings/gpiooutput"
+                href="#/androidthings/gpiooutput"
+              />,
+              <ListItem
+                primaryText="Android Things GPIO Input Demo"
+                value="/androidthings/gpioinput"
+                href="#/androidthings/gpioinput"
+              />,
+              <ListItem
+                primaryText="Android Things PWM Demo"
+                value="/androidthings/pwm"
+                href="#/androidthings/pwm"
+              />,
+              <ListItem
+                primaryText="Android Things Temperature Sensor Demo"
+                value="/androidthings/temperaturesensor"
+                href="#/androidthings/temperaturesensor"
+              />,
+            ]}
+          />
+          <ListItem
             primaryText="Raspberry Pi"
             primaryTogglesNestedList={true}
             value="/raspberrypi/intro"

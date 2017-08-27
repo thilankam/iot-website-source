@@ -174,10 +174,11 @@ class Master extends Component {
                 router.isActive('/devices') ? 'Devices' :
                   router.isActive('/bluetoothle') ? 'BluetoothLE' :
                     router.isActive('/microbit') ? 'Micro Bit' :
-                      router.isActive('/raspberrypi') ? 'Raspberry Pi' :
-                        router.isActive('/arduino101') ? 'Arduino 101' :
-                          router.isActive('/faq') ? 'FAQ' :
-                            router.isActive('/forum') ? 'Forum' : '';
+                      router.isActive('/androidthings') ? 'Android Things' :
+                        router.isActive('/raspberrypi') ? 'Raspberry Pi' :
+                          router.isActive('/arduino101') ? 'Arduino 101' :
+                            router.isActive('/faq') ? 'FAQ' :
+                              router.isActive('/forum') ? 'Forum' : '';
 
     let docked = false;
     let showMenuIconButton = true;

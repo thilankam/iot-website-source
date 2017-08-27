@@ -84,6 +84,13 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
+    <Route path="androidthings">
+      <Route path="intro" component={AndroidThingsIntroPage} />
+      <Route path="gpiooutput" component={AndroidThingsGPIOOutputPage} />
+      <Route path="gpioinput" component={AndroidThingsGPIOInputPage} />
+      <Route path="pwm" component={AndroidThingsPWMPage} />
+      <Route path="temperaturesensor" component={AndroidThingsTemperatureSensorPage} />
+    </Route>
     <Route path="raspberrypi">
       <Route path="intro" component={RaspberryPiIntroPage} />
       <Route path="remoteappliance" component={RaspberryPiRemoteAppliancePage} />
